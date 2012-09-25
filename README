@@ -1,0 +1,12 @@
+This is the README file for the reminder list that is stored in sqlite.  The capability uses two
+programs.
+
+1. First, execute the program todo_setup.rb.  This sets up the database and the corresponding schema needed
+for all further operations.
+
+2.  Next, execute the program todo_list.rb.  This program allows the user to add tasks to the list, view the
+items on the list, delete item, and change the status from complete to not complete, and vice versa.  All
+inputs in the control operations are checked to verify that they are valid entries.
+
+Note: No database is included in the git repository.  The setup program will generate and configure
+the db as needed.
